@@ -17,6 +17,6 @@ console.log(zipList(testListA, testListB));
 function zipListTheEasyWay(listA, listB) {
   const zippedList = _.zip(listA, listB);
   return _.flatten(zippedList);
-
 }
+
 console.log(zipListTheEasyWay(testListA, testListB));
